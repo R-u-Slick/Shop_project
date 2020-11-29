@@ -1,0 +1,360 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.page-header {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-around;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  background-color:#fa4831;
+  height: 180px;
+  position: fixed;
+}
+
+.page-header__late {
+  padding-top: 50px;
+  font-size: 20px;
+}
+.page-header__late-minutes {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.page-header__logo {
+  padding-top: 25px;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.page-header__info {
+  padding-top: 20px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.basket-button {
+  background: none;
+  color: white;
+  border-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.basket-button:hover {
+  background-color: #00bc26;
+}
+
+.basket-text{
+  font-size: 15px;
+  font-weight: normal;
+}.product-card {
+  width: 300px;
+  padding-top: 20px;
+}
+
+.product-buy {
+  display: flex;
+}
+
+.product-name {
+  padding-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: #fa4831;
+  padding-bottom: 10px;
+}
+
+.product-price {
+  padding-top: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  padding-right: 20px;
+}
+
+.product-weight {
+  padding-top: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #999999;
+}
+
+.product-info {
+  color: #999999;
+}
+
+.button-basket {
+  height: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  color: #fa4831;
+  background-color: #e9e9e9;
+  border: none;
+  cursor: pointer;
+}
+
+.button-basket:hover {
+  color: white;
+  background-color: #00bc26;
+}.filter {
+    margin-top: 100px;
+    margin-left: 50px;
+    padding-left: 20px;
+    width: 220px;
+    height: 360px;
+    margin-right: 20px;
+    background-color: #fef43e;
+    border-radius: 10px;
+    position: fixed;
+}
+
+.filter-title {
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #fa4831;
+}
+
+.filter-item__name {
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fa4831;
+}
+
+.filter-input input {
+    width: 50px;
+}
+
+.filter-controls {
+    margin-top: 20px;
+}
+
+.filter-controls__button {
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #fa4831;
+    cursor: pointer;
+}
+
+.error-show {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: block;
+    color: red
+}
+
+.error-hide {
+    display: none
+}
+
+.item-price {
+    position: relative;
+}
+
+.item-weight {
+    position: relative;
+}
+
+.price-error {
+    position: absolute;
+}
+.weight-error {
+    position: absolute;
+}
+.page-body__info {
+    display: flex;
+}
+
+.products {
+    width: 1100px;
+    margin-left: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.sort {
+    text-align: right;
+}
+
+.wrong-filter {
+    padding-top: 150px;
+    padding-left: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px; 
+}
+
+.main-content {
+    margin: 0 auto;
+}.infoPage {
+    margin: 0 auto;
+    width: 1100px;
+}
+
+.infoPage-title {
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.infoPage-subtitle {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: #007dfa;
+    padding-top: 20px;
+}
+
+.infoPage-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding-top:10px;
+    text-align: justify;
+}
+.infoPage {
+    margin: 0 auto;
+    width: 1100px;
+}
+
+.infoPage-title {
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.infoPage-subtitle {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: #007dfa;
+    padding-top: 20px;
+}
+
+.infoPage-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding-top:10px;
+    text-align: justify;
+}
+.basketPage {
+    margin: 0 auto;
+    width: 1100px;
+}
+
+.basketPage-title {
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.basketPage-subtitle {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    padding-top: 20px;
+}
+
+.basketPage-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding-top:10px;
+    text-align: justify;
+}
+
+.no-products {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    color:#fa4831;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.basket-total {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    text-align: right;
+    padding-right: 200px;
+    padding-top: 20px;
+
+}.basket-product-name {
+  padding-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: #fa4831;
+  padding-bottom: 10px;
+  width: 600px;
+}
+
+.basket-product-quantity {
+  padding-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  padding-bottom: 10px;
+  width: 250px;
+}
+
+.basket-product-summ {
+  padding-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  padding-bottom: 10px;
+  width: 250px;
+}
+
+.basket-product-button {
+  font-family: Arial, Helvetica, sans-serif;
+  background: none;
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+  color: #fa4831;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}.pages-links {
+    text-align: center;
+    padding-top: 190px;
+    padding-bottom: 10px;
+    margin-left: 150px;
+}
+
+.PageLink {
+    color: #007dfa;
+    text-decoration: none;
+    margin-right: 80px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.ActivePageLink {
+    color: #00bc26;
+}
+
+/*# sourceMappingURL=main.bundle.abdd425dcc4bf903ee40.css.map*/

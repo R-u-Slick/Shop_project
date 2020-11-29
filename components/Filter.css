@@ -1,0 +1,68 @@
+﻿.filter {
+    margin-top: 100px;
+    margin-left: 50px;
+    padding-left: 20px;
+    width: 220px;
+    height: 360px;
+    margin-right: 20px;
+    background-color: #fef43e;
+    border-radius: 10px;
+    position: fixed;
+}
+
+.filter-title {
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #fa4831;
+}
+
+.filter-item__name {
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fa4831;
+}
+
+.filter-input input {
+    width: 50px;
+}
+
+.filter-controls {
+    margin-top: 20px;
+}
+
+.filter-controls__button {
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #fa4831;
+    cursor: pointer;
+}
+
+.error-show {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: block;
+    color: red
+}
+
+.error-hide {
+    display: none
+}
+
+.item-price {
+    position: relative;
+}
+
+.item-weight {
+    position: relative;
+}
+
+.price-error {
+    position: absolute;
+}
+.weight-error {
+    position: absolute;
+}

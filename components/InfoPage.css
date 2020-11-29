@@ -1,0 +1,26 @@
+﻿.infoPage {
+    margin: 0 auto;
+    width: 1100px;
+}
+
+.infoPage-title {
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.infoPage-subtitle {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: #007dfa;
+    padding-top: 20px;
+}
+
+.infoPage-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding-top:10px;
+    text-align: justify;
+}
